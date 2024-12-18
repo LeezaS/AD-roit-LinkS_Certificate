@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Certificate Generator</title>
+        <link rel="stylesheet" href="certificateGenPage.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <img src="AD-roit-LinksLogo.png" alt="Logo" class="logo">
+            <h2>Enter Your Name</h2>
+            <input type="text" id="userName" placeholder="Your Name" class="input-box">
+            <button onclick="generatePDF()" class="btn">Generate Certificate</button>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+        <script src="certificateLogic.js"></script>
+    </body>
+
+</html>

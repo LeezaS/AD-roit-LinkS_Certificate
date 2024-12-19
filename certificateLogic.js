@@ -31,7 +31,7 @@ function generatePDF() {
         doc.text(titleCaseName, 105, 75, { align: 'center' }); // Centered text
 
         // Save the generated PDF
-        doc.save( titleCaseName + 'certificate.pdf');
+        doc.save( titleCaseName + ' certificate.pdf');
 
         // Reset the input field
         document.getElementById("userName").value = '';
